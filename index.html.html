@@ -1,0 +1,2679 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Inventario Disponible</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body{font-family:Arial,Helvetica,sans-serif;background:#f4f4f4;margin:0;padding:20px}
+h1{text-align:center}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:20px}
+.card{background:#fff;border-radius:14px;box-shadow:0 4px 12px rgba(0,0,0,.12);overflow:hidden}
+.card img{width:100%;height:210px;object-fit:cover;background:#eee}
+.info{padding:15px}
+.info h3{margin:0 0 8px}
+.info p{margin:4px 0;color:#555}
+.badge{display:inline-block;background:#000;color:#fff;padding:4px 12px;border-radius:20px;font-size:12px;margin-top:8px}
+.actions{margin-top:12px;display:flex;gap:10px}
+.btn{flex:1;text-align:center;padding:10px;border-radius:8px;text-decoration:none;font-weight:bold}
+.btn-info{background:#007bff;color:#fff}
+.btn-wa{background:#25D366;color:#fff}
+.agent{margin-top:12px;padding-top:10px;border-top:1px solid #eee;font-size:14px;color:#333}
+</style>
+</head>
+<body>
+
+<h1>Inventario de Vehículos</h1>
+
+<div class="grid">
+
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+VOLKSWAGEN+TAOS" alt="2024 VOLKSWAGEN TAOS">
+        <div class="info">
+            <h3>2024 VOLKSWAGEN TAOS</h3>
+            <p><strong>Versión:</strong> 1.5T SE (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> DEEP BLACK PEARL</p>
+            <p><strong>Millas:</strong> 9893</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 VOLKSWAGEN TAOS&body=Hola, me interesa el 2024 VOLKSWAGEN TAOS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20VOLKSWAGEN%20TAOS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+FORD+TRANSIT-250+CARGO" alt="2024 FORD TRANSIT-250 CARGO">
+        <div class="info">
+            <h3>2024 FORD TRANSIT-250 CARGO</h3>
+            <p><strong>Versión:</strong> BASE REAR-WHEEL DRIVE MEDIUM ROOF VAN 148 IN. WB</p>
+            <p><strong>Color:</strong> OXFORD WHITE</p>
+            <p><strong>Millas:</strong> 9380</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 FORD TRANSIT-250 CARGO&body=Hola, me interesa el 2024 FORD TRANSIT-250 CARGO. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20FORD%20TRANSIT-250%20CARGO.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+RAM+1500" alt="2024 RAM 1500">
+        <div class="info">
+            <h3>2024 RAM 1500</h3>
+            <p><strong>Versión:</strong> LIMITED 4X4 CREW CAB 144.5 IN. WB</p>
+            <p><strong>Color:</strong> BRIGHT WHITE CLEARCOAT</p>
+            <p><strong>Millas:</strong> 13669</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 RAM 1500&body=Hola, me interesa el 2024 RAM 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20RAM%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+HYUNDAI+SANTA+FE" alt="2023 HYUNDAI SANTA FE">
+        <div class="info">
+            <h3>2023 HYUNDAI SANTA FE</h3>
+            <p><strong>Versión:</strong> SEL (A8) 4DR ALL-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PORTOFINO GRAY</p>
+            <p><strong>Millas:</strong> 43497</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 HYUNDAI SANTA FE&body=Hola, me interesa el 2023 HYUNDAI SANTA FE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20HYUNDAI%20SANTA%20FE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+VOLKSWAGEN+TAOS" alt="2024 VOLKSWAGEN TAOS">
+        <div class="info">
+            <h3>2024 VOLKSWAGEN TAOS</h3>
+            <p><strong>Versión:</strong> 1.5T SE (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PYRITE SILVER METALLIC</p>
+            <p><strong>Millas:</strong> 9467</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 VOLKSWAGEN TAOS&body=Hola, me interesa el 2024 VOLKSWAGEN TAOS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20VOLKSWAGEN%20TAOS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+VOLKSWAGEN+ATLAS+CROSS+SPORT" alt="2024 VOLKSWAGEN ATLAS CROSS SPORT">
+        <div class="info">
+            <h3>2024 VOLKSWAGEN ATLAS CROSS SPORT</h3>
+            <p><strong>Versión:</strong> 2.0T SEL R-LINE (A8) 4DR ALL-WHEEL DRIVE 4MOTION</p>
+            <p><strong>Color:</strong> DEEP BLACK PEARL</p>
+            <p><strong>Millas:</strong> 31044</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 VOLKSWAGEN ATLAS CROSS SPORT&body=Hola, me interesa el 2024 VOLKSWAGEN ATLAS CROSS SPORT. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20VOLKSWAGEN%20ATLAS%20CROSS%20SPORT.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+VOLKSWAGEN+TAOS" alt="2022 VOLKSWAGEN TAOS">
+        <div class="info">
+            <h3>2022 VOLKSWAGEN TAOS</h3>
+            <p><strong>Versión:</strong> 1.5T SE (DSG) 4DR ALL-WHEEL DRIVE 4MOTION</p>
+            <p><strong>Color:</strong> BLUE METALLIC</p>
+            <p><strong>Millas:</strong> 20922</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 VOLKSWAGEN TAOS&body=Hola, me interesa el 2022 VOLKSWAGEN TAOS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20VOLKSWAGEN%20TAOS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+VOLKSWAGEN+TIGUAN" alt="2024 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2024 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T SE R-LINE BLACK (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PLATINUM GRAY METALLIC</p>
+            <p><strong>Millas:</strong> 48621</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2024 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+RAM+2500" alt="2024 RAM 2500">
+        <div class="info">
+            <h3>2024 RAM 2500</h3>
+            <p><strong>Versión:</strong> LARAMIE 4X4 MEGA CAB 6.3 FT. BOX 160.5 IN. WB</p>
+            <p><strong>Color:</strong> GRANITE CRYSTAL METALLIC CLEARCOAT</p>
+            <p><strong>Millas:</strong> 14778</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 RAM 2500&body=Hola, me interesa el 2024 RAM 2500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20RAM%202500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+FORD+ESCAPE" alt="2022 FORD ESCAPE">
+        <div class="info">
+            <h3>2022 FORD ESCAPE</h3>
+            <p><strong>Versión:</strong> SEL 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> RAPID RED METALLIC TINTED CLEARCOAT</p>
+            <p><strong>Millas:</strong> 11278</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 FORD ESCAPE&body=Hola, me interesa el 2022 FORD ESCAPE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20FORD%20ESCAPE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+VOLKSWAGEN+TIGUAN" alt="2023 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2023 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T SE (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PLATINUM GRAY METALLIC</p>
+            <p><strong>Millas:</strong> 32117</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2023 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+VOLKSWAGEN+TIGUAN" alt="2022 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2022 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T SE R-LINE BLACK (A8) 4DR ALL-WHEEL DRIVE 4MOTION</p>
+            <p><strong>Color:</strong> PLATINUM GRAY METALLIC</p>
+            <p><strong>Millas:</strong> 34211</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2022 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+JEEP+GRAND+CHEROKEE+WK" alt="2022 JEEP GRAND CHEROKEE WK">
+        <div class="info">
+            <h3>2022 JEEP GRAND CHEROKEE WK</h3>
+            <p><strong>Versión:</strong> LAREDO 4DR 4X2</p>
+            <p><strong>Color:</strong> VELVET RED PEARLCOAT</p>
+            <p><strong>Millas:</strong> 55785</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 JEEP GRAND CHEROKEE WK&body=Hola, me interesa el 2022 JEEP GRAND CHEROKEE WK. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20JEEP%20GRAND%20CHEROKEE%20WK.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+TOYOTA+SEQUOIA" alt="2022 TOYOTA SEQUOIA">
+        <div class="info">
+            <h3>2022 TOYOTA SEQUOIA</h3>
+            <p><strong>Versión:</strong> TRD SPORT (A6) 4DR 4X2</p>
+            <p><strong>Color:</strong> WHITE</p>
+            <p><strong>Millas:</strong> 75626</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 TOYOTA SEQUOIA&body=Hola, me interesa el 2022 TOYOTA SEQUOIA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20TOYOTA%20SEQUOIA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+CHEVROLET+TAHOE" alt="2022 CHEVROLET TAHOE">
+        <div class="info">
+            <h3>2022 CHEVROLET TAHOE</h3>
+            <p><strong>Versión:</strong> Z71 4X4</p>
+            <p><strong>Color:</strong> EVERGREEN GRAY METALLIC</p>
+            <p><strong>Millas:</strong> 48751</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 CHEVROLET TAHOE&body=Hola, me interesa el 2022 CHEVROLET TAHOE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20CHEVROLET%20TAHOE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+VOLKSWAGEN+TIGUAN" alt="2024 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2024 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> DEEP BLACK PEARL</p>
+            <p><strong>Millas:</strong> 19901</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2024 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+HYUNDAI+SANTA+CRUZ" alt="2025 HYUNDAI SANTA CRUZ">
+        <div class="info">
+            <h3>2025 HYUNDAI SANTA CRUZ</h3>
+            <p><strong>Versión:</strong> SEL (A8) FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PHANTOM BLACK</p>
+            <p><strong>Millas:</strong> 22993</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 HYUNDAI SANTA CRUZ&body=Hola, me interesa el 2025 HYUNDAI SANTA CRUZ. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20HYUNDAI%20SANTA%20CRUZ.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2021+TOYOTA+4RUNNER" alt="2021 TOYOTA 4RUNNER">
+        <div class="info">
+            <h3>2021 TOYOTA 4RUNNER</h3>
+            <p><strong>Versión:</strong> LIMITED (A5) 4DR 4X4</p>
+            <p><strong>Color:</strong> BLIZZARD PEARL</p>
+            <p><strong>Millas:</strong> 59055</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202021 TOYOTA 4RUNNER&body=Hola, me interesa el 2021 TOYOTA 4RUNNER. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202021%20TOYOTA%204RUNNER.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2019+HYUNDAI+TUCSON" alt="2019 HYUNDAI TUCSON">
+        <div class="info">
+            <h3>2019 HYUNDAI TUCSON</h3>
+            <p><strong>Versión:</strong> VALUE (A6) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> GEMSTONE RED</p>
+            <p><strong>Millas:</strong> 39491</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202019 HYUNDAI TUCSON&body=Hola, me interesa el 2019 HYUNDAI TUCSON. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202019%20HYUNDAI%20TUCSON.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2021+CHEVROLET+TAHOE" alt="2021 CHEVROLET TAHOE">
+        <div class="info">
+            <h3>2021 CHEVROLET TAHOE</h3>
+            <p><strong>Versión:</strong> PREMIER 4X2</p>
+            <p><strong>Color:</strong> SATIN STEEL METALLIC</p>
+            <p><strong>Millas:</strong> 71903</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202021 CHEVROLET TAHOE&body=Hola, me interesa el 2021 CHEVROLET TAHOE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202021%20CHEVROLET%20TAHOE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+CHEVROLET+SILVERADO+1500" alt="2024 CHEVROLET SILVERADO 1500">
+        <div class="info">
+            <h3>2024 CHEVROLET SILVERADO 1500</h3>
+            <p><strong>Versión:</strong> ZR2 4X4 CREW CAB 5.75 FT. BOX 147.4 IN. WB</p>
+            <p><strong>Color:</strong> BLACK</p>
+            <p><strong>Millas:</strong> 19322</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 CHEVROLET SILVERADO 1500&body=Hola, me interesa el 2024 CHEVROLET SILVERADO 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20CHEVROLET%20SILVERADO%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+RAM+1500" alt="2022 RAM 1500">
+        <div class="info">
+            <h3>2022 RAM 1500</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> DELMONICO RED PEARLCOAT</p>
+            <p><strong>Millas:</strong> 77102</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 RAM 1500&body=Hola, me interesa el 2022 RAM 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20RAM%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+DODGE+CHARGER" alt="2023 DODGE CHARGER">
+        <div class="info">
+            <h3>2023 DODGE CHARGER</h3>
+            <p><strong>Versión:</strong> SXT 4DR REAR-WHEEL DRIVE SEDAN</p>
+            <p><strong>Color:</strong> TRIPLE NICKEL CLEARCOAT</p>
+            <p><strong>Millas:</strong> 44514</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 DODGE CHARGER&body=Hola, me interesa el 2023 DODGE CHARGER. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20DODGE%20CHARGER.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+GMC+YUKON" alt="2022 GMC YUKON">
+        <div class="info">
+            <h3>2022 GMC YUKON</h3>
+            <p><strong>Versión:</strong> DENALI 4X4</p>
+            <p><strong>Color:</strong> SATIN STEEL METALLIC</p>
+            <p><strong>Millas:</strong> 56691</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 GMC YUKON&body=Hola, me interesa el 2022 GMC YUKON. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20GMC%20YUKON.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+CHEVROLET+SILVERADO+1500" alt="2023 CHEVROLET SILVERADO 1500">
+        <div class="info">
+            <h3>2023 CHEVROLET SILVERADO 1500</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> SUMMIT WHITE</p>
+            <p><strong>Millas:</strong> 40616</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 CHEVROLET SILVERADO 1500&body=Hola, me interesa el 2023 CHEVROLET SILVERADO 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20CHEVROLET%20SILVERADO%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+CHEVROLET+MALIBU" alt="2023 CHEVROLET MALIBU">
+        <div class="info">
+            <h3>2023 CHEVROLET MALIBU</h3>
+            <p><strong>Versión:</strong> 1LT 4DR SEDAN</p>
+            <p><strong>Color:</strong> ASH</p>
+            <p><strong>Millas:</strong> 45789</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 CHEVROLET MALIBU&body=Hola, me interesa el 2023 CHEVROLET MALIBU. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20CHEVROLET%20MALIBU.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+VOLKSWAGEN+TIGUAN" alt="2022 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2022 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T SE (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> WHITE</p>
+            <p><strong>Millas:</strong> 68550</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2022 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+CHEVROLET+SUBURBAN" alt="2024 CHEVROLET SUBURBAN">
+        <div class="info">
+            <h3>2024 CHEVROLET SUBURBAN</h3>
+            <p><strong>Versión:</strong> Z71 4DR 4X4</p>
+            <p><strong>Color:</strong> SUMMIT WHITE</p>
+            <p><strong>Millas:</strong>  </p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 CHEVROLET SUBURBAN&body=Hola, me interesa el 2024 CHEVROLET SUBURBAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20CHEVROLET%20SUBURBAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+CHEVROLET+TAHOE" alt="2024 CHEVROLET TAHOE">
+        <div class="info">
+            <h3>2024 CHEVROLET TAHOE</h3>
+            <p><strong>Versión:</strong> Z71 4DR 4X4</p>
+            <p><strong>Color:</strong> DARK ASH METALLIC</p>
+            <p><strong>Millas:</strong> 53768</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 CHEVROLET TAHOE&body=Hola, me interesa el 2024 CHEVROLET TAHOE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20CHEVROLET%20TAHOE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2021+CHEVROLET+SILVERADO+1500" alt="2021 CHEVROLET SILVERADO 1500">
+        <div class="info">
+            <h3>2021 CHEVROLET SILVERADO 1500</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> CHERRY RED TINTCOAT</p>
+            <p><strong>Millas:</strong> 39399</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202021 CHEVROLET SILVERADO 1500&body=Hola, me interesa el 2021 CHEVROLET SILVERADO 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202021%20CHEVROLET%20SILVERADO%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2019+VOLKSWAGEN+TIGUAN" alt="2019 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2019 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T S (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> CARDINAL RED METALLIC</p>
+            <p><strong>Millas:</strong> 69092</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202019 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2019 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202019%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2019+FORD+F-150" alt="2019 FORD F-150">
+        <div class="info">
+            <h3>2019 FORD F-150</h3>
+            <p><strong>Versión:</strong> LIMITED 4X4 SUPERCREW CAB STYLESIDE 5.5 FT. BOX 145 IN. WB</p>
+            <p><strong>Color:</strong> BLACK</p>
+            <p><strong>Millas:</strong> 66251</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202019 FORD F-150&body=Hola, me interesa el 2019 FORD F-150. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202019%20FORD%20F-150.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+FORD+F-150" alt="2022 FORD F-150">
+        <div class="info">
+            <h3>2022 FORD F-150</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> SILVER METALLIC</p>
+            <p><strong>Millas:</strong> 78503</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 FORD F-150&body=Hola, me interesa el 2022 FORD F-150. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20FORD%20F-150.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+HYUNDAI+SONATA" alt="2023 HYUNDAI SONATA">
+        <div class="info">
+            <h3>2023 HYUNDAI SONATA</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> SERENITY WHITE</p>
+            <p><strong>Millas:</strong> 41889</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 HYUNDAI SONATA&body=Hola, me interesa el 2023 HYUNDAI SONATA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20HYUNDAI%20SONATA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+JETTA" alt="2025 VOLKSWAGEN JETTA">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN JETTA</h3>
+            <p><strong>Versión:</strong> 1.5T SE (A8) 4DR SEDAN</p>
+            <p><strong>Color:</strong> GREY</p>
+            <p><strong>Millas:</strong> 9146</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN JETTA&body=Hola, me interesa el 2025 VOLKSWAGEN JETTA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20JETTA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+JETTA" alt="2025 VOLKSWAGEN JETTA">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN JETTA</h3>
+            <p><strong>Versión:</strong> 1.5T SE (A8) 4DR SEDAN</p>
+            <p><strong>Color:</strong> DEEP BLACK</p>
+            <p><strong>Millas:</strong> 8961</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN JETTA&body=Hola, me interesa el 2025 VOLKSWAGEN JETTA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20JETTA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+VOLKSWAGEN+TIGUAN" alt="2023 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2023 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T SE R-LINE BLACK (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PYRITE SILVER METALLIC</p>
+            <p><strong>Millas:</strong> 31689</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2023 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+HYUNDAI+KONA" alt="2023 HYUNDAI KONA">
+        <div class="info">
+            <h3>2023 HYUNDAI KONA</h3>
+            <p><strong>Versión:</strong> SE (IVT) 4DR ALL-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> ECOTRONIC GRAY</p>
+            <p><strong>Millas:</strong> 39597</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 HYUNDAI KONA&body=Hola, me interesa el 2023 HYUNDAI KONA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20HYUNDAI%20KONA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2019+KIA+SORENTO" alt="2019 KIA SORENTO">
+        <div class="info">
+            <h3>2019 KIA SORENTO</h3>
+            <p><strong>Versión:</strong> 3.3L LX (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> SNOW WHITE PEARL</p>
+            <p><strong>Millas:</strong> 91245</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202019 KIA SORENTO&body=Hola, me interesa el 2019 KIA SORENTO. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202019%20KIA%20SORENTO.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2020+HYUNDAI+TUCSON" alt="2020 HYUNDAI TUCSON">
+        <div class="info">
+            <h3>2020 HYUNDAI TUCSON</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> AQUA BLUE</p>
+            <p><strong>Millas:</strong> 63957</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202020 HYUNDAI TUCSON&body=Hola, me interesa el 2020 HYUNDAI TUCSON. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202020%20HYUNDAI%20TUCSON.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+RAM+3500" alt="2024 RAM 3500">
+        <div class="info">
+            <h3>2024 RAM 3500</h3>
+            <p><strong>Versión:</strong> BIG HORN 4X4 CREW CAB 8 FT. BOX 169.5 IN. WB</p>
+            <p><strong>Color:</strong> BRIGHT WHITE CLEARCOAT</p>
+            <p><strong>Millas:</strong> 7171</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 RAM 3500&body=Hola, me interesa el 2024 RAM 3500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20RAM%203500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2021+INFINITI+QX80" alt="2021 INFINITI QX80">
+        <div class="info">
+            <h3>2021 INFINITI QX80</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> MOONSTONE WHITE</p>
+            <p><strong>Millas:</strong> 52056</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202021 INFINITI QX80&body=Hola, me interesa el 2021 INFINITI QX80. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202021%20INFINITI%20QX80.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+DODGE+CHARGER" alt="2022 DODGE CHARGER">
+        <div class="info">
+            <h3>2022 DODGE CHARGER</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> GRANITE CRYSTAL METALLIC CLEARCOAT</p>
+            <p><strong>Millas:</strong> 24199</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 DODGE CHARGER&body=Hola, me interesa el 2022 DODGE CHARGER. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20DODGE%20CHARGER.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+TOYOTA+COROLLA" alt="2022 TOYOTA COROLLA">
+        <div class="info">
+            <h3>2022 TOYOTA COROLLA</h3>
+            <p><strong>Versión:</strong> LE (CVT) 4DR SEDAN</p>
+            <p><strong>Color:</strong> WHITE</p>
+            <p><strong>Millas:</strong> 21207</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 TOYOTA COROLLA&body=Hola, me interesa el 2022 TOYOTA COROLLA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20TOYOTA%20COROLLA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+NISSAN+SENTRA" alt="2025 NISSAN SENTRA">
+        <div class="info">
+            <h3>2025 NISSAN SENTRA</h3>
+            <p><strong>Versión:</strong> SV (CVT) 4DR SEDAN</p>
+            <p><strong>Color:</strong> SCARLET</p>
+            <p><strong>Millas:</strong> 16245</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 NISSAN SENTRA&body=Hola, me interesa el 2025 NISSAN SENTRA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20NISSAN%20SENTRA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+NISSAN+ROGUE" alt="2023 NISSAN ROGUE">
+        <div class="info">
+            <h3>2023 NISSAN ROGUE</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> SUPER BLACK</p>
+            <p><strong>Millas:</strong> 56934</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 NISSAN ROGUE&body=Hola, me interesa el 2023 NISSAN ROGUE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20NISSAN%20ROGUE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+KIA+FORTE" alt="2024 KIA FORTE">
+        <div class="info">
+            <h3>2024 KIA FORTE</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> STEEL GRAY</p>
+            <p><strong>Millas:</strong> 40268</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 KIA FORTE&body=Hola, me interesa el 2024 KIA FORTE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20KIA%20FORTE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+DODGE+CHARGER" alt="2023 DODGE CHARGER">
+        <div class="info">
+            <h3>2023 DODGE CHARGER</h3>
+            <p><strong>Versión:</strong> SXT 4DR REAR-WHEEL DRIVE SEDAN</p>
+            <p><strong>Color:</strong> TORRED CLEARCOAT</p>
+            <p><strong>Millas:</strong> 51879</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 DODGE CHARGER&body=Hola, me interesa el 2023 DODGE CHARGER. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20DODGE%20CHARGER.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2021+HYUNDAI+TUCSON" alt="2021 HYUNDAI TUCSON">
+        <div class="info">
+            <h3>2021 HYUNDAI TUCSON</h3>
+            <p><strong>Versión:</strong> SE (A6) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> BLACK NOIR PEARL</p>
+            <p><strong>Millas:</strong> 27660</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202021 HYUNDAI TUCSON&body=Hola, me interesa el 2021 HYUNDAI TUCSON. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202021%20HYUNDAI%20TUCSON.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+DODGE+CHARGER" alt="2022 DODGE CHARGER">
+        <div class="info">
+            <h3>2022 DODGE CHARGER</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> PITCH BLACK CLEARCOAT</p>
+            <p><strong>Millas:</strong> 6819</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 DODGE CHARGER&body=Hola, me interesa el 2022 DODGE CHARGER. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20DODGE%20CHARGER.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2021+FORD+ECOSPORT" alt="2021 FORD ECOSPORT">
+        <div class="info">
+            <h3>2021 FORD ECOSPORT</h3>
+            <p><strong>Versión:</strong> SE FRONT-WHEEL DRIVE SPORT UTILITY</p>
+            <p><strong>Color:</strong> BLUE METALLIC</p>
+            <p><strong>Millas:</strong> 72810</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202021 FORD ECOSPORT&body=Hola, me interesa el 2021 FORD ECOSPORT. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202021%20FORD%20ECOSPORT.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+VOLKSWAGEN+TIGUAN" alt="2024 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2024 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T SE (A8) (EOP CW37) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PYRITE SILVER METALLIC</p>
+            <p><strong>Millas:</strong> 5000</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2024 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+TAOS" alt="2025 VOLKSWAGEN TAOS">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN TAOS</h3>
+            <p><strong>Versión:</strong> 1.5T SE (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PURE WHITE</p>
+            <p><strong>Millas:</strong> 9893</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN TAOS&body=Hola, me interesa el 2025 VOLKSWAGEN TAOS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20TAOS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+VOLKSWAGEN+TIGUAN" alt="2024 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2024 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T WOLFSBURG EDITION (A8) (SOP CW38) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> DEEP BLACK PEARL</p>
+            <p><strong>Millas:</strong> 9075</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2024 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+TAOS" alt="2025 VOLKSWAGEN TAOS">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN TAOS</h3>
+            <p><strong>Versión:</strong> 1.5T SE (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> DEEP BLACK PEARL</p>
+            <p><strong>Millas:</strong> 7505</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN TAOS&body=Hola, me interesa el 2025 VOLKSWAGEN TAOS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20TAOS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+TAOS" alt="2025 VOLKSWAGEN TAOS">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN TAOS</h3>
+            <p><strong>Versión:</strong> 1.5T SE (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PURE WHITE</p>
+            <p><strong>Millas:</strong> 5847</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN TAOS&body=Hola, me interesa el 2025 VOLKSWAGEN TAOS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20TAOS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+ATLAS" alt="2025 VOLKSWAGEN ATLAS">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN ATLAS</h3>
+            <p><strong>Versión:</strong> 2.0T SEL PREMIUM R-LINE (A8) 4DR ALL-WHEEL DRIVE 4MOTION</p>
+            <p><strong>Color:</strong> DEEP BLACK PEARL</p>
+            <p><strong>Millas:</strong> 2423</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN ATLAS&body=Hola, me interesa el 2025 VOLKSWAGEN ATLAS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20ATLAS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+JETTA" alt="2025 VOLKSWAGEN JETTA">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN JETTA</h3>
+            <p><strong>Versión:</strong> 1.5T SE (A8) 4DR SEDAN</p>
+            <p><strong>Color:</strong> DEEP BLACK PEARL</p>
+            <p><strong>Millas:</strong> 10152</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN JETTA&body=Hola, me interesa el 2025 VOLKSWAGEN JETTA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20JETTA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+JETTA+GLI" alt="2025 VOLKSWAGEN JETTA GLI">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN JETTA GLI</h3>
+            <p><strong>Versión:</strong> 2.0T AUTOBAHN (DSG) 4DR SEDAN</p>
+            <p><strong>Color:</strong> DEEP BLACK PEARL</p>
+            <p><strong>Millas:</strong> 15554</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN JETTA GLI&body=Hola, me interesa el 2025 VOLKSWAGEN JETTA GLI. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20JETTA%20GLI.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2017+VOLKSWAGEN+BEETLE" alt="2017 VOLKSWAGEN BEETLE">
+        <div class="info">
+            <h3>2017 VOLKSWAGEN BEETLE</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> WHITE</p>
+            <p><strong>Millas:</strong> 49600</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202017 VOLKSWAGEN BEETLE&body=Hola, me interesa el 2017 VOLKSWAGEN BEETLE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202017%20VOLKSWAGEN%20BEETLE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2015+JEEP+PATRIOT" alt="2015 JEEP PATRIOT">
+        <div class="info">
+            <h3>2015 JEEP PATRIOT</h3>
+            <p><strong>Versión:</strong> SPORT 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> BLACK</p>
+            <p><strong>Millas:</strong> 223013</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202015 JEEP PATRIOT&body=Hola, me interesa el 2015 JEEP PATRIOT. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202015%20JEEP%20PATRIOT.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+BUICK+ENCORE+GX" alt="2025 BUICK ENCORE GX">
+        <div class="info">
+            <h3>2025 BUICK ENCORE GX</h3>
+            <p><strong>Versión:</strong> AVENIR 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> MOONSTONE GRAY METALLIC</p>
+            <p><strong>Millas:</strong> 1486</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 BUICK ENCORE GX&body=Hola, me interesa el 2025 BUICK ENCORE GX. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20BUICK%20ENCORE%20GX.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2021+FORD+ESCAPE" alt="2021 FORD ESCAPE">
+        <div class="info">
+            <h3>2021 FORD ESCAPE</h3>
+            <p><strong>Versión:</strong> SEL 4DR ALL-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> BLACK METALLIC</p>
+            <p><strong>Millas:</strong> 78612</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202021 FORD ESCAPE&body=Hola, me interesa el 2021 FORD ESCAPE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202021%20FORD%20ESCAPE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+NISSAN+ROGUE" alt="2022 NISSAN ROGUE">
+        <div class="info">
+            <h3>2022 NISSAN ROGUE</h3>
+            <p><strong>Versión:</strong> SV (CVT) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> CASPIAN BLUE METALLIC</p>
+            <p><strong>Millas:</strong> 59971</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 NISSAN ROGUE&body=Hola, me interesa el 2022 NISSAN ROGUE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20NISSAN%20ROGUE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+JEEP+COMPASS" alt="2022 JEEP COMPASS">
+        <div class="info">
+            <h3>2022 JEEP COMPASS</h3>
+            <p><strong>Versión:</strong> LATITUDE 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> GRANITE CRYSTAL METALLIC CLEARCOAT</p>
+            <p><strong>Millas:</strong> 58391</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 JEEP COMPASS&body=Hola, me interesa el 2022 JEEP COMPASS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20JEEP%20COMPASS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+CHEVROLET+MALIBU" alt="2024 CHEVROLET MALIBU">
+        <div class="info">
+            <h3>2024 CHEVROLET MALIBU</h3>
+            <p><strong>Versión:</strong> RS 4DR SEDAN</p>
+            <p><strong>Color:</strong> MINERAL GRAY METALLIC</p>
+            <p><strong>Millas:</strong> 29944</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 CHEVROLET MALIBU&body=Hola, me interesa el 2024 CHEVROLET MALIBU. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20CHEVROLET%20MALIBU.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2018+CHEVROLET+SILVERADO+1500" alt="2018 CHEVROLET SILVERADO 1500">
+        <div class="info">
+            <h3>2018 CHEVROLET SILVERADO 1500</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> RED HOT</p>
+            <p><strong>Millas:</strong> 29886</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202018 CHEVROLET SILVERADO 1500&body=Hola, me interesa el 2018 CHEVROLET SILVERADO 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202018%20CHEVROLET%20SILVERADO%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+KIA+SPORTAGE" alt="2024 KIA SPORTAGE">
+        <div class="info">
+            <h3>2024 KIA SPORTAGE</h3>
+            <p><strong>Versión:</strong> LX (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> FUSION BLACK</p>
+            <p><strong>Millas:</strong> 36945</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 KIA SPORTAGE&body=Hola, me interesa el 2024 KIA SPORTAGE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20KIA%20SPORTAGE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+FORD+F-150" alt="2025 FORD F-150">
+        <div class="info">
+            <h3>2025 FORD F-150</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> GRAY METALLIC</p>
+            <p><strong>Millas:</strong> 14066</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 FORD F-150&body=Hola, me interesa el 2025 FORD F-150. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20FORD%20F-150.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2026+CHEVROLET+SILVERADO+1500" alt="2026 CHEVROLET SILVERADO 1500">
+        <div class="info">
+            <h3>2026 CHEVROLET SILVERADO 1500</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> BLACK</p>
+            <p><strong>Millas:</strong> 230</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202026 CHEVROLET SILVERADO 1500&body=Hola, me interesa el 2026 CHEVROLET SILVERADO 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202026%20CHEVROLET%20SILVERADO%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+VOLKSWAGEN+TIGUAN" alt="2022 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2022 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T SE (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> SILVER METALLIC</p>
+            <p><strong>Millas:</strong> 30598</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2022 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+TOYOTA+COROLLA" alt="2022 TOYOTA COROLLA">
+        <div class="info">
+            <h3>2022 TOYOTA COROLLA</h3>
+            <p><strong>Versión:</strong> LE (CVT) 4DR SEDAN</p>
+            <p><strong>Color:</strong> CLASSIC SILVER METALLIC</p>
+            <p><strong>Millas:</strong> 67384</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 TOYOTA COROLLA&body=Hola, me interesa el 2022 TOYOTA COROLLA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20TOYOTA%20COROLLA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+VOLKSWAGEN+JETTA" alt="2024 VOLKSWAGEN JETTA">
+        <div class="info">
+            <h3>2024 VOLKSWAGEN JETTA</h3>
+            <p><strong>Versión:</strong> 1.5T SE (A8) 4DR SEDAN</p>
+            <p><strong>Color:</strong> DEEP BLACK</p>
+            <p><strong>Millas:</strong> 8652</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 VOLKSWAGEN JETTA&body=Hola, me interesa el 2024 VOLKSWAGEN JETTA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20VOLKSWAGEN%20JETTA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+NISSAN+ROGUE" alt="2023 NISSAN ROGUE">
+        <div class="info">
+            <h3>2023 NISSAN ROGUE</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> PEARL WHITE</p>
+            <p><strong>Millas:</strong> 59231</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 NISSAN ROGUE&body=Hola, me interesa el 2023 NISSAN ROGUE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20NISSAN%20ROGUE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+NISSAN+ROGUE" alt="2023 NISSAN ROGUE">
+        <div class="info">
+            <h3>2023 NISSAN ROGUE</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> PEARL WHITE</p>
+            <p><strong>Millas:</strong> 33402</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 NISSAN ROGUE&body=Hola, me interesa el 2023 NISSAN ROGUE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20NISSAN%20ROGUE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+NISSAN+ROGUE" alt="2023 NISSAN ROGUE">
+        <div class="info">
+            <h3>2023 NISSAN ROGUE</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> SUPER BLACK</p>
+            <p><strong>Millas:</strong> 45950</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 NISSAN ROGUE&body=Hola, me interesa el 2023 NISSAN ROGUE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20NISSAN%20ROGUE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+VOLKSWAGEN+JETTA" alt="2024 VOLKSWAGEN JETTA">
+        <div class="info">
+            <h3>2024 VOLKSWAGEN JETTA</h3>
+            <p><strong>Versión:</strong> 1.5T S (A8) 4DR SEDAN</p>
+            <p><strong>Color:</strong> PYRITE SILVER METALLIC</p>
+            <p><strong>Millas:</strong> 30328</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 VOLKSWAGEN JETTA&body=Hola, me interesa el 2024 VOLKSWAGEN JETTA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20VOLKSWAGEN%20JETTA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+KIA+FORTE" alt="2023 KIA FORTE">
+        <div class="info">
+            <h3>2023 KIA FORTE</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> CURRANT RED</p>
+            <p><strong>Millas:</strong> 34321</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 KIA FORTE&body=Hola, me interesa el 2023 KIA FORTE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20KIA%20FORTE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+CHEVROLET+SILVERADO+1500" alt="2022 CHEVROLET SILVERADO 1500">
+        <div class="info">
+            <h3>2022 CHEVROLET SILVERADO 1500</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> SUMMIT WHITE</p>
+            <p><strong>Millas:</strong> 69284</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 CHEVROLET SILVERADO 1500&body=Hola, me interesa el 2022 CHEVROLET SILVERADO 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20CHEVROLET%20SILVERADO%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2021+FORD+F-150" alt="2021 FORD F-150">
+        <div class="info">
+            <h3>2021 FORD F-150</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> OXFORD WHITE</p>
+            <p><strong>Millas:</strong> 69856</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202021 FORD F-150&body=Hola, me interesa el 2021 FORD F-150. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202021%20FORD%20F-150.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+MITSUBISHI+ECLIPSE+CROSS" alt="2024 MITSUBISHI ECLIPSE CROSS">
+        <div class="info">
+            <h3>2024 MITSUBISHI ECLIPSE CROSS</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> MERCURY GRAY METALLIC</p>
+            <p><strong>Millas:</strong> 32218</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 MITSUBISHI ECLIPSE CROSS&body=Hola, me interesa el 2024 MITSUBISHI ECLIPSE CROSS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20MITSUBISHI%20ECLIPSE%20CROSS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+FORD+F-150" alt="2025 FORD F-150">
+        <div class="info">
+            <h3>2025 FORD F-150</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> BLUE METALLIC</p>
+            <p><strong>Millas:</strong> 12773</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 FORD F-150&body=Hola, me interesa el 2025 FORD F-150. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20FORD%20F-150.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+NISSAN+ALTIMA" alt="2024 NISSAN ALTIMA">
+        <div class="info">
+            <h3>2024 NISSAN ALTIMA</h3>
+            <p><strong>Versión:</strong> 2.5 SV (CVT) 4DR FRONT-WHEEL DRIVE SEDAN</p>
+            <p><strong>Color:</strong> GUN METALLIC</p>
+            <p><strong>Millas:</strong> 49655</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 NISSAN ALTIMA&body=Hola, me interesa el 2024 NISSAN ALTIMA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20NISSAN%20ALTIMA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+FORD+EDGE" alt="2024 FORD EDGE">
+        <div class="info">
+            <h3>2024 FORD EDGE</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> BLACK METALLIC</p>
+            <p><strong>Millas:</strong> 36567</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 FORD EDGE&body=Hola, me interesa el 2024 FORD EDGE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20FORD%20EDGE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+ACURA+TLX" alt="2022 ACURA TLX">
+        <div class="info">
+            <h3>2022 ACURA TLX</h3>
+            <p><strong>Versión:</strong> A-SPEC PACKAGE (A10) 4DR FRONT-WHEEL DRIVE SEDAN</p>
+            <p><strong>Color:</strong> PLATINUM WHITE PEARL</p>
+            <p><strong>Millas:</strong> 21143</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 ACURA TLX&body=Hola, me interesa el 2022 ACURA TLX. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20ACURA%20TLX.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2009+NISSAN+MURANO" alt="2009 NISSAN MURANO">
+        <div class="info">
+            <h3>2009 NISSAN MURANO</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong>  </p>
+            <p><strong>Millas:</strong> 105451</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202009 NISSAN MURANO&body=Hola, me interesa el 2009 NISSAN MURANO. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202009%20NISSAN%20MURANO.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+CHEVROLET+CORVETTE" alt="2024 CHEVROLET CORVETTE">
+        <div class="info">
+            <h3>2024 CHEVROLET CORVETTE</h3>
+            <p><strong>Versión:</strong> STINGRAY W/1LT 2DR CONVERTIBLE</p>
+            <p><strong>Color:</strong> SILVER FLARE METALLIC</p>
+            <p><strong>Millas:</strong> 3860</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 CHEVROLET CORVETTE&body=Hola, me interesa el 2024 CHEVROLET CORVETTE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20CHEVROLET%20CORVETTE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+TAOS" alt="2025 VOLKSWAGEN TAOS">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN TAOS</h3>
+            <p><strong>Versión:</strong> 1.5T S (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PURE WHITE</p>
+            <p><strong>Millas:</strong> 10505</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN TAOS&body=Hola, me interesa el 2025 VOLKSWAGEN TAOS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20TAOS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+TIGUAN" alt="2025 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> PLATINUM GRAY METALLIC</p>
+            <p><strong>Millas:</strong> 9331</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2025 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+TAOS" alt="2025 VOLKSWAGEN TAOS">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN TAOS</h3>
+            <p><strong>Versión:</strong> 1.5T SE (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PURE WHITE</p>
+            <p><strong>Millas:</strong> 10446</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN TAOS&body=Hola, me interesa el 2025 VOLKSWAGEN TAOS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20TAOS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+TIGUAN" alt="2025 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T S (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PLATINUM GRAY METALLIC</p>
+            <p><strong>Millas:</strong> 9568</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2025 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+TIGUAN" alt="2025 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T S (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PLATINUM GRAY METALLIC</p>
+            <p><strong>Millas:</strong> 5903</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2025 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+TIGUAN" alt="2025 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T S (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PURE WHITE</p>
+            <p><strong>Millas:</strong> 6047</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2025 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+VOLKSWAGEN+TIGUAN" alt="2025 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2025 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong> 2.0T S (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> DEEP BLACK PEARL</p>
+            <p><strong>Millas:</strong> 7562</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2025 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2017+JEEP+GRAND+CHEROKEE" alt="2017 JEEP GRAND CHEROKEE">
+        <div class="info">
+            <h3>2017 JEEP GRAND CHEROKEE</h3>
+            <p><strong>Versión:</strong> LAREDO 4DR 4X2</p>
+            <p><strong>Color:</strong> BRIGHT WHITE CLEARCOAT</p>
+            <p><strong>Millas:</strong> 106615</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202017 JEEP GRAND CHEROKEE&body=Hola, me interesa el 2017 JEEP GRAND CHEROKEE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202017%20JEEP%20GRAND%20CHEROKEE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+RAM+1500" alt="2025 RAM 1500">
+        <div class="info">
+            <h3>2025 RAM 1500</h3>
+            <p><strong>Versión:</strong> REBEL 4X4 CREW CAB 144.5 IN. WB</p>
+            <p><strong>Color:</strong> BILLET SILVER METALLIC CLEARCOAT</p>
+            <p><strong>Millas:</strong> 35709</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 RAM 1500&body=Hola, me interesa el 2025 RAM 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20RAM%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+NISSAN+SENTRA" alt="2024 NISSAN SENTRA">
+        <div class="info">
+            <h3>2024 NISSAN SENTRA</h3>
+            <p><strong>Versión:</strong> SV (CVT) 4DR SEDAN</p>
+            <p><strong>Color:</strong> SUPER BLACK</p>
+            <p><strong>Millas:</strong> 49085</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 NISSAN SENTRA&body=Hola, me interesa el 2024 NISSAN SENTRA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20NISSAN%20SENTRA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2021+CHEVROLET+SILVERADO+3500HD" alt="2021 CHEVROLET SILVERADO 3500HD">
+        <div class="info">
+            <h3>2021 CHEVROLET SILVERADO 3500HD</h3>
+            <p><strong>Versión:</strong> HIGH COUNTRY 4X4 CREW CAB 6.75 FT. BOX 158.9 IN. WB SRW</p>
+            <p><strong>Color:</strong> BROWN METALLIC</p>
+            <p><strong>Millas:</strong> 33594</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202021 CHEVROLET SILVERADO 3500HD&body=Hola, me interesa el 2021 CHEVROLET SILVERADO 3500HD. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202021%20CHEVROLET%20SILVERADO%203500HD.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2019+RAM+1500+CLASSIC" alt="2019 RAM 1500 CLASSIC">
+        <div class="info">
+            <h3>2019 RAM 1500 CLASSIC</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> BRIGHT WHITE CLEARCOAT</p>
+            <p><strong>Millas:</strong> 67778</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202019 RAM 1500 CLASSIC&body=Hola, me interesa el 2019 RAM 1500 CLASSIC. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202019%20RAM%201500%20CLASSIC.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2021+CHEVROLET+SILVERADO+1500" alt="2021 CHEVROLET SILVERADO 1500">
+        <div class="info">
+            <h3>2021 CHEVROLET SILVERADO 1500</h3>
+            <p><strong>Versión:</strong> CUSTOM 4X2 CREW CAB 5.75 FT. BOX 147.4 IN. WB</p>
+            <p><strong>Color:</strong> SUMMIT WHITE</p>
+            <p><strong>Millas:</strong> 85097</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202021 CHEVROLET SILVERADO 1500&body=Hola, me interesa el 2021 CHEVROLET SILVERADO 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202021%20CHEVROLET%20SILVERADO%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2019+GMC+SIERRA+1500" alt="2019 GMC SIERRA 1500">
+        <div class="info">
+            <h3>2019 GMC SIERRA 1500</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> RED QUARTZ TINTCOAT</p>
+            <p><strong>Millas:</strong> 51511</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202019 GMC SIERRA 1500&body=Hola, me interesa el 2019 GMC SIERRA 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202019%20GMC%20SIERRA%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2020+CHEVROLET+SILVERADO+1500" alt="2020 CHEVROLET SILVERADO 1500">
+        <div class="info">
+            <h3>2020 CHEVROLET SILVERADO 1500</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> BLACK</p>
+            <p><strong>Millas:</strong> 81766</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202020 CHEVROLET SILVERADO 1500&body=Hola, me interesa el 2020 CHEVROLET SILVERADO 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202020%20CHEVROLET%20SILVERADO%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+RAM+2500" alt="2022 RAM 2500">
+        <div class="info">
+            <h3>2022 RAM 2500</h3>
+            <p><strong>Versión:</strong> BIG HORN 4X4 CREW CAB 6.3 FT. BOX 149 IN. WB</p>
+            <p><strong>Color:</strong> BILLET SILVER METALLIC CLEARCOAT</p>
+            <p><strong>Millas:</strong> 57065</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 RAM 2500&body=Hola, me interesa el 2022 RAM 2500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20RAM%202500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2019+RAM+1500" alt="2019 RAM 1500">
+        <div class="info">
+            <h3>2019 RAM 1500</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> IVORY WHITE TRI-COAT PEARLCOAT</p>
+            <p><strong>Millas:</strong> 72720</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202019 RAM 1500&body=Hola, me interesa el 2019 RAM 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202019%20RAM%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+JEEP+GLADIATOR" alt="2023 JEEP GLADIATOR">
+        <div class="info">
+            <h3>2023 JEEP GLADIATOR</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> BLACK CLEARCOAT</p>
+            <p><strong>Millas:</strong> 14965</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 JEEP GLADIATOR&body=Hola, me interesa el 2023 JEEP GLADIATOR. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20JEEP%20GLADIATOR.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+VOLKSWAGEN+TIGUAN" alt="2024 VOLKSWAGEN TIGUAN">
+        <div class="info">
+            <h3>2024 VOLKSWAGEN TIGUAN</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> PLATINUM GRAY METALLIC</p>
+            <p><strong>Millas:</strong> 28244</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 VOLKSWAGEN TIGUAN&body=Hola, me interesa el 2024 VOLKSWAGEN TIGUAN. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20VOLKSWAGEN%20TIGUAN.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+RAM+2500" alt="2024 RAM 2500">
+        <div class="info">
+            <h3>2024 RAM 2500</h3>
+            <p><strong>Versión:</strong> LONGHORN 4X4 CREW CAB 6.3 FT. BOX 149 IN. WB</p>
+            <p><strong>Color:</strong> DELMONICO RED PEARLCOAT</p>
+            <p><strong>Millas:</strong> 41782</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 RAM 2500&body=Hola, me interesa el 2024 RAM 2500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20RAM%202500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+CHEVROLET+SILVERADO+2500HD" alt="2023 CHEVROLET SILVERADO 2500HD">
+        <div class="info">
+            <h3>2023 CHEVROLET SILVERADO 2500HD</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> SUMMIT WHITE</p>
+            <p><strong>Millas:</strong> 68400</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 CHEVROLET SILVERADO 2500HD&body=Hola, me interesa el 2023 CHEVROLET SILVERADO 2500HD. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20CHEVROLET%20SILVERADO%202500HD.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2025+RAM+1500" alt="2025 RAM 1500">
+        <div class="info">
+            <h3>2025 RAM 1500</h3>
+            <p><strong>Versión:</strong> LARAMIE 4X4 CREW CAB 144.5 IN. WB</p>
+            <p><strong>Color:</strong> DIAMOND BLACK CRYSTAL PEARLCOAT</p>
+            <p><strong>Millas:</strong> 25028</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202025 RAM 1500&body=Hola, me interesa el 2025 RAM 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202025%20RAM%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2020+GMC+SIERRA+1500" alt="2020 GMC SIERRA 1500">
+        <div class="info">
+            <h3>2020 GMC SIERRA 1500</h3>
+            <p><strong>Versión:</strong> SLE 4X2 CREW CAB 5.75 FT. BOX 147.4 IN. WB</p>
+            <p><strong>Color:</strong> QUICKSILVER METALLIC</p>
+            <p><strong>Millas:</strong> 70297</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202020 GMC SIERRA 1500&body=Hola, me interesa el 2020 GMC SIERRA 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202020%20GMC%20SIERRA%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2022+LEXUS+IS+350" alt="2022 LEXUS IS 350">
+        <div class="info">
+            <h3>2022 LEXUS IS 350</h3>
+            <p><strong>Versión:</strong> F SPORT (A6) 4DR ALL-WHEEL DRIVE SEDAN</p>
+            <p><strong>Color:</strong> ULTRA WHITE</p>
+            <p><strong>Millas:</strong> 51972</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202022 LEXUS IS 350&body=Hola, me interesa el 2022 LEXUS IS 350. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202022%20LEXUS%20IS%20350.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+CHEVROLET+SILVERADO+1500" alt="2024 CHEVROLET SILVERADO 1500">
+        <div class="info">
+            <h3>2024 CHEVROLET SILVERADO 1500</h3>
+            <p><strong>Versión:</strong> LT W/1LT 4X2 CREW CAB 5.75 FT. BOX 147.4 IN. WB</p>
+            <p><strong>Color:</strong> DARK ASH METALLIC</p>
+            <p><strong>Millas:</strong> 64568</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 CHEVROLET SILVERADO 1500&body=Hola, me interesa el 2024 CHEVROLET SILVERADO 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20CHEVROLET%20SILVERADO%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2020+FORD+F-150" alt="2020 FORD F-150">
+        <div class="info">
+            <h3>2020 FORD F-150</h3>
+            <p><strong>Versión:</strong> XLT 4X4 SUPERCREW CAB STYLESIDE 5.5 FT. BOX 145 IN. WB</p>
+            <p><strong>Color:</strong> RED</p>
+            <p><strong>Millas:</strong> 75934</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202020 FORD F-150&body=Hola, me interesa el 2020 FORD F-150. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202020%20FORD%20F-150.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2016+JEEP+WRANGLER+UNLIMITED" alt="2016 JEEP WRANGLER UNLIMITED">
+        <div class="info">
+            <h3>2016 JEEP WRANGLER UNLIMITED</h3>
+            <p><strong>Versión:</strong> RUBICON 4DR 4X4</p>
+            <p><strong>Color:</strong> BLACK</p>
+            <p><strong>Millas:</strong> 90810</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202016 JEEP WRANGLER UNLIMITED&body=Hola, me interesa el 2016 JEEP WRANGLER UNLIMITED. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202016%20JEEP%20WRANGLER%20UNLIMITED.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+CADILLAC+ESCALADE" alt="2024 CADILLAC ESCALADE">
+        <div class="info">
+            <h3>2024 CADILLAC ESCALADE</h3>
+            <p><strong>Versión:</strong> SPORT PLATINUM 4DR 4X4</p>
+            <p><strong>Color:</strong> ARGENT SILVER METALLIC</p>
+            <p><strong>Millas:</strong> 47488</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 CADILLAC ESCALADE&body=Hola, me interesa el 2024 CADILLAC ESCALADE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20CADILLAC%20ESCALADE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2023+RAM+1500" alt="2023 RAM 1500">
+        <div class="info">
+            <h3>2023 RAM 1500</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> DIAMOND BLACK CRYSTAL PEARLCOAT</p>
+            <p><strong>Millas:</strong> 50910</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202023 RAM 1500&body=Hola, me interesa el 2023 RAM 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202023%20RAM%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+RAM+2500" alt="2024 RAM 2500">
+        <div class="info">
+            <h3>2024 RAM 2500</h3>
+            <p><strong>Versión:</strong> BIG HORN 4X4 CREW CAB 6.3 FT. BOX 149 IN. WB</p>
+            <p><strong>Color:</strong> BRIGHT WHITE CLEARCOAT</p>
+            <p><strong>Millas:</strong> 42635</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 RAM 2500&body=Hola, me interesa el 2024 RAM 2500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20RAM%202500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=++FORD+EDGE" alt="  FORD EDGE">
+        <div class="info">
+            <h3>  FORD EDGE</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> AGATE BLACK METALLIC</p>
+            <p><strong>Millas:</strong> 36567</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%20  FORD EDGE&body=Hola, me interesa el   FORD EDGE. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%20%20%20FORD%20EDGE.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+VOLKSWAGEN+JETTA" alt="2024 VOLKSWAGEN JETTA">
+        <div class="info">
+            <h3>2024 VOLKSWAGEN JETTA</h3>
+            <p><strong>Versión:</strong> 1.5T S (A8) 4DR SEDAN</p>
+            <p><strong>Color:</strong> DEEP BLACK PEARL</p>
+            <p><strong>Millas:</strong> 37218</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 VOLKSWAGEN JETTA&body=Hola, me interesa el 2024 VOLKSWAGEN JETTA. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20VOLKSWAGEN%20JETTA.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2021+GMC+SIERRA+1500" alt="2021 GMC SIERRA 1500">
+        <div class="info">
+            <h3>2021 GMC SIERRA 1500</h3>
+            <p><strong>Versión:</strong> ELEVATION W/3SB 4X2 CREW CAB 5.75 FT. BOX 147.4 IN. WB</p>
+            <p><strong>Color:</strong> CAYENNE RED TINTCOAT</p>
+            <p><strong>Millas:</strong> 68121</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202021 GMC SIERRA 1500&body=Hola, me interesa el 2021 GMC SIERRA 1500. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202021%20GMC%20SIERRA%201500.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2012+NISSAN+MURANO" alt="2012 NISSAN MURANO">
+        <div class="info">
+            <h3>2012 NISSAN MURANO</h3>
+            <p><strong>Versión:</strong> LE 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> SILVER</p>
+            <p><strong>Millas:</strong> 123782</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202012 NISSAN MURANO&body=Hola, me interesa el 2012 NISSAN MURANO. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202012%20NISSAN%20MURANO.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2015+NISSAN+ROGUE+SELECT" alt="2015 NISSAN ROGUE SELECT">
+        <div class="info">
+            <h3>2015 NISSAN ROGUE SELECT</h3>
+            <p><strong>Versión:</strong> S 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> -SELECT-</p>
+            <p><strong>Millas:</strong> 174850</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202015 NISSAN ROGUE SELECT&body=Hola, me interesa el 2015 NISSAN ROGUE SELECT. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202015%20NISSAN%20ROGUE%20SELECT.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2024+VOLKSWAGEN+TAOS" alt="2024 VOLKSWAGEN TAOS">
+        <div class="info">
+            <h3>2024 VOLKSWAGEN TAOS</h3>
+            <p><strong>Versión:</strong> 1.5T S (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> PURE WHITE</p>
+            <p><strong>Millas:</strong> 14461</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202024 VOLKSWAGEN TAOS&body=Hola, me interesa el 2024 VOLKSWAGEN TAOS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202024%20VOLKSWAGEN%20TAOS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2019+VOLKSWAGEN+ATLAS" alt="2019 VOLKSWAGEN ATLAS">
+        <div class="info">
+            <h3>2019 VOLKSWAGEN ATLAS</h3>
+            <p><strong>Versión:</strong> 3.6L V6 SE W/TECHNOLOGY (A8) 4DR FRONT-WHEEL DRIVE</p>
+            <p><strong>Color:</strong> DEEP BLACK PEARL</p>
+            <p><strong>Millas:</strong> 36358</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202019 VOLKSWAGEN ATLAS&body=Hola, me interesa el 2019 VOLKSWAGEN ATLAS. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202019%20VOLKSWAGEN%20ATLAS.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2016+FORD+F-250" alt="2016 FORD F-250">
+        <div class="info">
+            <h3>2016 FORD F-250</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong>  </p>
+            <p><strong>Millas:</strong> 120388</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202016 FORD F-250&body=Hola, me interesa el 2016 FORD F-250. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202016%20FORD%20F-250.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+    <div class="card">
+        <img src="https://via.placeholder.com/600x400?text=2014+TOYOTA+RAV4" alt="2014 TOYOTA RAV4">
+        <div class="info">
+            <h3>2014 TOYOTA RAV4</h3>
+            <p><strong>Versión:</strong>  </p>
+            <p><strong>Color:</strong> -SELECT-</p>
+            <p><strong>Millas:</strong> 178000</p>
+            <span class="badge">Usado</span>
+
+            <div class="actions">
+                <a class="btn btn-info" href="mailto:?subject=Información%202014 TOYOTA RAV4&body=Hola, me interesa el 2014 TOYOTA RAV4. ¿Me puedes dar más información?">Solicitar información</a>
+                <a class="btn btn-wa" href="https://wa.me/19455275300?text=Hola,%20me%20interesa%20el%202014%20TOYOTA%20RAV4.%20¿Me%20puedes%20dar%20más%20información?" target="_blank">WhatsApp</a>
+            </div>
+
+            <div class="agent">
+                👤 Adrián Rodríguez<br>
+                📞 +1 (945)-527-5300
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+</body>
+</html>
